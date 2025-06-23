@@ -1,0 +1,12 @@
+[
+  {
+    "id": "7f3830a3-0a69-401b-868b-a30503ac1e35",
+    "name": "Janez Novak",
+    "age": "21",
+    "courses": [
+      "Math",
+      "Physics",
+      "Chemistry"
+    ]
+  }
+]
