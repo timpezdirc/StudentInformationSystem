@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-edit-student',
-  imports: [],
+  standalone: false,
   templateUrl: './edit-student.component.html',
   styleUrl: './edit-student.component.css'
 })
