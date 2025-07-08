@@ -1,0 +1,28 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+p-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 1.5rem;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.p-field {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 100%;
+}

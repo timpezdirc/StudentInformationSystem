@@ -68,6 +68,7 @@ tbody tr:last-child td:last-child {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 16px;
 }
 
 .pagination button {
@@ -89,6 +90,25 @@ tbody tr:last-child td:last-child {
 
 .pagination button:hover:not(:disabled) {
   background-color: #4a3a6a;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+}
+
+.purple-button {
+  background-color: #5e4b8b !important;
+  border-color: #5e4b8b !important;
+}
+
+.purple-button:hover {
+  background-color: #4a3a6a !important;
+  border-color: #5e4b8b !important;
+}
+
+.p-button-sm {
+  margin: 0 4px;
 }
 
 .no-students {

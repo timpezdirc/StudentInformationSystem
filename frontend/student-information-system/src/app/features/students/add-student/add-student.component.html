@@ -1,1 +1,25 @@
-<p>add-student works!</p>
+<p-card header="Add Student">
+  <form [formGroup]="studentForm" (ngSubmit)="onSubmit()" class="form-grid">
+    <div class="p-field">
+      <label for="name">Name</label>
+      <input id="name" pInputText formControlName="name" />
+    </div>
+
+    <div class="p-field">
+      <label for="age">Age</label>
+      <input id="age" type="number" pInputText formControlName="age" />
+    </div>
+
+    <div class="p-field"> 
+      <label for="courses">Courses</label>
+      <p-multiSelect
+        [options]="courseOptions"
+        formControlName="courses"
+        optionLabel="name"
+        placeholder="Select courses"
+      ></p-multiSelect>
+    </div>
+
+    <button pButton type="submit" label="Submit" [disabled]="studentForm.invalid"></button>
+  </form>
+</p-card>

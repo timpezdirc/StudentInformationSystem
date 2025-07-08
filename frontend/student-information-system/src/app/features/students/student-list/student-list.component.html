@@ -5,6 +5,7 @@
                 <th class="align-left">Name</th>
                 <th class="align-center">Age</th>
                 <th class="align-right">Courses</th>
+                <th class="align-center">Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -12,6 +13,10 @@
                 <td class="align-left">{{ student.name }}</td>
                 <td class="align-center">{{ student.age }}</td>
                 <td class="align-right">{{ student.courses.join(', ') }}</td>
+                <td class="align-center">
+                    <button pButton type="button" icon="pi pi-trash" class="p-button-danger p-button-sm" (click)="deleteStudent(student)"></button>
+                    <button pButton type="button" icon="pi pi-pencil" class="p-button-warning p-button-sm ml-2" (click)="goToEditStudent(student.id)"></button>
+                </td>
             </tr>
         </tbody>
     </table>
@@ -20,6 +25,11 @@
         <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
         <span>Page {{ currentPage }} of {{ totalPages }}</span>
         <button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+    </div>
+
+    <div class="add">
+        <button pButton type="button" label="Add Student" icon="pi pi-plus" class="p-button-primary purple-button" (click)="goToAddStudent()">
+        </button>
     </div>
 </div>
 

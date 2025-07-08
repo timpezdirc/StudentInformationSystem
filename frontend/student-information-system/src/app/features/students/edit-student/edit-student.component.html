@@ -1,1 +1,17 @@
-<p>edit-student works!</p>
+<p-card header="Edit Student Courses">
+    <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+        <div class="p-field">
+            <label for="courses">Courses</label>
+            <p-multiSelect
+                formControlName="courses"
+                [options]="courseOptions"
+                optionLabel="name"
+                display="chip"
+                placeholder="Select Courses"
+                id="courses"
+            ></p-multiSelect>
+        </div>
+
+        <button pButton type="submit" label="Update Courses" class="p-button-primary mt-3"></button>
+    </form>
+</p-card>

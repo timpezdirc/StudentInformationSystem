@@ -7,8 +7,13 @@ import { StudentListComponent } from './student-list/student-list.component';
 import { AddStudentComponent } from './add-student/add-student.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
 
+import { CardModule } from 'primeng/card';
 import { TableModule } from 'primeng/table';
+import { ButtonModule } from 'primeng/button';
 import { PaginatorModule } from 'primeng/paginator';
+import { InputTextModule } from 'primeng/inputtext';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,8 +25,13 @@ import { PaginatorModule } from 'primeng/paginator';
   imports: [
     CommonModule,
     StudentsRoutingModule,
+    ReactiveFormsModule,
     TableModule,
-    PaginatorModule
+    PaginatorModule,
+    ButtonModule,
+    CardModule,
+    InputTextModule,
+    MultiSelectModule
   ]
 })
 export class StudentsModule { }

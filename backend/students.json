@@ -4,9 +4,10 @@
     "name": "Janez Novak",
     "age": "21",
     "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
+      "Computer Architecture",
+      "Computer Communications",
+      "Artificial Intelligence",
+      "Databases"
     ]
   },
   {
@@ -24,9 +25,8 @@
     "name": "Janez Novak",
     "age": "21",
     "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
+      "Statistics",
+      "Theory of Computation"
     ]
   },
   {
@@ -84,9 +84,7 @@
     "name": "Janez Novak",
     "age": "21",
     "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
+      "Computer Architecture"
     ]
   },
   {
@@ -110,23 +108,12 @@
     ]
   },
   {
-    "id": "ae524634-2a93-4c19-a752-1c37f545397b",
-    "name": "Janez Novak",
-    "age": "21",
-    "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
-    ]
-  },
-  {
     "id": "72ffdd35-87dc-4dbd-a6b5-3ad5a8ccf1c6",
     "name": "Janez Novak",
     "age": "21",
     "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
+      "Computer Communications",
+      "Artificial Intelligence"
     ]
   },
   {
@@ -150,46 +137,6 @@
     ]
   },
   {
-    "id": "d9b084c3-907b-4294-ad39-66c1bde0673c",
-    "name": "Janez Novak",
-    "age": "21",
-    "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
-    ]
-  },
-  {
-    "id": "09ac3d87-075b-4d98-80c9-df9d990bbcf7",
-    "name": "Janez Novak",
-    "age": "21",
-    "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
-    ]
-  },
-  {
-    "id": "737ad754-76f7-449c-820a-edb9fd569a58",
-    "name": "Janez Novak",
-    "age": "21",
-    "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
-    ]
-  },
-  {
-    "id": "5e13db09-1997-4dc4-8835-6123bca3b191",
-    "name": "Janez Novak",
-    "age": "21",
-    "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
-    ]
-  },
-  {
     "id": "e3c03e76-5eac-44d5-a418-953a628cf405",
     "name": "Janez Novak",
     "age": "21",
@@ -200,13 +147,21 @@
     ]
   },
   {
-    "id": "b7dc5693-13a2-4e2c-a418-cc83e19d38d5",
-    "name": "Janez Novak",
-    "age": "21",
+    "id": "c76e9bff-f527-4dd0-9f39-a486795ef903",
+    "name": "Mike",
+    "age": 22,
     "courses": [
-      "Math",
-      "Physics",
-      "Chemistry"
+      "Calculus",
+      "Physics"
+    ]
+  },
+  {
+    "id": "1db14599-baef-41a0-9506-9283b7d720d6",
+    "name": "Nevem",
+    "age": 18,
+    "courses": [
+      "Theory of Computation",
+      "Algorithms and Data Structures"
     ]
   }
 ]
