@@ -10,6 +10,7 @@
 2. Zaženemo backend:
 
    ```bash
+   npm install
    node app.js
 
 ## Frontend
@@ -22,4 +23,5 @@
 2. Zaženemo Angular aplikacijo:
 
    ```bash
+   npm install
    ng serve --open
